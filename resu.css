@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+    overflow-x: scroll;
+}
+header{
+    color: rgb(253, 252, 250);
+    background-color: black;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    height: 60px;
+    width:100%;
+    text-align: center;
+}
+.navig{
+    background: linear-gradient(to left ,rgb(255, 234, 0),rgb(39, 36, 227),rgb(255, 13, 0));
+    height: 40px; 
+   
+   margin: 20px;
+ text-transform: uppercase;
+ text-decoration: none;  
+ text-align: end;
+
+}
+
+a{
+    margin: 20px;
+   color: rgb(3, 0, 0);
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+.bk{
+background-color: black;
+color: azure;
+height: 500px
+
+}
+p{
+    font-style: italic;
+    font-size: 20pxpx;
+    transition: 1s;
+}
+p:hover{
+    color: #f5ff33;
+}
+
+
+a:hover{
+
+    color: black;
+    font-weight: bold;
+}
+.login{
+    height: 400px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 20px;
+    border: 10px;
+    border-radius: 90px;
+    margin-top: 30px;
+background-color: aliceblue;
+transition: step-end;
+}
+.login:hover{
+    background: linear-gradient(to bottom, rgb(0, 81, 255),rgb(228, 105, 235),rgb(39, 255, 86));
+}
+
+.im img
+{
+   height: 400px;
+   width: 300px;
+  filter: opacity(80%);
+  filter: saturate(120%);
+  transition: .5s;
+
+}
+img:hover{
+transform: scale(1.2)
+
+}
+
+
+
+.edu{
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(to bottom, #f5ff33 0%, #c770e4 100%);
+  
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  padding: 10px;
+  margin-top: 30px;
+
+ 
+
+}
+
+.skils{
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(to bottom, #f5ff33 0%, #c770e4 100%);
+border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+   margin-top: 20px;
+}
+i{
+    padding: 20px;
+    transition: .5s;
+}
+i:hover{
+    color: rgb(62, 32, 253);
+    transform: scale(1.2);
+}
+#social{
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(to bottom, #f5ff33 0%, #c770e4 100%);
+border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+   margin-top: 20px;
+}
+#insta {
+height: 45x;
+width: 75px;
+}
+#face{
+    height: 42px;
+    width: 42px; 
+  
+}
+
+#whatsapp{
+    height: 47px;
+    width: 45px; 
+    margin-left: 30px;
+
+}
